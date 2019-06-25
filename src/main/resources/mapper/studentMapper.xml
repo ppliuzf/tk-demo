@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.tk.tkDemo.mapper.StudentMapper">
+<!--<select id="testSelect" resultType="com.example.tk.tkDemo.dto.StudentDto">
+    SELECT
+        s.student_name studentName,
+        c.`name` classRoomName
+    FROM
+        student s
+            LEFT JOIN class_room c ON s.class_id = c.Id
+</select>-->
+</mapper>
